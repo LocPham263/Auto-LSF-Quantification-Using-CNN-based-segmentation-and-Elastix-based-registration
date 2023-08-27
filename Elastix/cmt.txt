@@ -1,0 +1,20 @@
+
+//forward statergy
+
+elastix 
+-f F:\Works\Liver_registration_CNN\elastix_test\data\p0101_pos_pv_009.nii.gz 
+-fMask F:\Works\Liver_registration_CNN\elastix_test\mask\p0101_pos_pv_009_liver.nii.gz 
+-m F:\Works\Liver_registration_CNN\elastix_test\data\p0103_diag_pv_006.nii.gz 
+-mMask F:\Works\Liver_registration_CNN\elastix_test\mask\p0103_diag_pv_006_liver.nii.gz 
+-p F:\Works\Liver_registration_CNN\elastix_test\scripts\RigidparaPI.txt 
+-p F:\Works\Liver_registration_CNN\elastix_test\scripts\NonrigidparaPI.txt 
+-out F:\Works\Liver_registration_CNN\elastix_test\registration
+
+
+
+
+
+
+
+
+
